@@ -1,0 +1,249 @@
+:root {
+	--c-p-hp:#7E9BF8;
+	--c-s-hp: #F2B213;
+}
+body {
+	background-color: #FBC060;
+	font-family: 'Joan', serif;
+	margin: 0;
+}
+header {
+	background-color: var(--c-s-hp);
+	font-size: 100%;
+}
+.menu_list {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5em;
+    padding: 0 1em;
+    margin: 0;
+}
+
+.menu_item {
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu_item a {
+	color: #000;
+	text-decoration: none;
+	font-size: 140%;
+}
+
+.logo {
+	width: 10em;
+    height: 4em;
+}
+
+.formulario {
+	display: block;
+	border: 0;
+    max-width: 768px;
+    margin: 60px auto;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.formulario_form{
+}
+.formulario_form_fieldset{
+	display: flex;
+	flex-direction: column;
+	border: none;
+	padding: 10px;
+}
+.formulario_h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.boton_cancel{
+	position: relative;
+    padding: 15px 25px;
+    background: #fff;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  left: 35%;
+}
+.boton_enviar{
+	position: relative;
+    padding: 15px 25px;
+    background: #fff;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  left: 35%;
+}
+.boton_cancel:hover {
+  background: var(--c-s-hp);
+  color: #F2F3EB;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.boton_enviar:hover {
+  background: var(--c-s-hp);
+  color: #F2F3EB;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.nombre{
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+	width: 100%;
+}
+.nombre_input{
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0;
+	padding: 5px;
+  text-transform: uppercase;
+	width: 100%;
+}
+.correo{
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+	width: 100%;
+}
+.correo_input{
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0;
+	padding: 5px;
+  text-transform: uppercase;
+	width: 100%;
+}
+
+.ubicacion{
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+	width: 100%;
+}
+.ubicacion_inputs{
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+  text-transform: uppercase;
+	width: 100%;
+}
+.ubicacion_inputs option {
+		background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+  text-transform: uppercase;
+	width: 100%;
+}
+.date{
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+	width: 100%;
+}
+.date_input{
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0;
+	padding: 5px;
+  text-transform: uppercase;
+	width: 100%;
+}
+.horario{
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+	width: 100%;
+}
+.horario_input{
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0;
+	padding: 5px;
+  text-transform: uppercase;
+	width: 100%;
+}
+.ubi_ofi {
+  color: #474544;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer_glauben {
+	background-color: var(--c-s-hp);
+	font-size: 100%;
+	margin: 0;
+	padding: 20px;
+}
+.footer_glauben h4 {
+	text-align: center;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+
